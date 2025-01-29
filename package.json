@@ -6,6 +6,7 @@
   "repository": "https://github.com/NoD-Studio/eslint-config-nodstudio-reactnative",
   "author": "NOD Studio",
   "license": "MIT",
+  "keywords": ["eslint", "eslintconfig"],
   "devDependencies": {
     "@eslint/js": "^9.19.0",
     "eslint": "^9.19.0",
