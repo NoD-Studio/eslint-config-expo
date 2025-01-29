@@ -1,0 +1,33 @@
+{
+  "name": "eslint-config-nodstudio-reactnative",
+  "version": "1.0.0",
+  "description": "ESLint configuration for Expo from NOD Studio",
+  "main": "index.js",
+  "repository": "https://github.com/NoD-Studio/eslint-config-nodstudio-reactnative",
+  "author": "NOD Studio",
+  "license": "MIT",
+  "devDependencies": {
+    "@eslint/js": "^9.19.0",
+    "eslint": "^9.19.0",
+    "eslint-config-prettier": "^10.0.1",
+    "eslint-plugin-import": "^2.31.0",
+    "eslint-plugin-prettier": "^5.2.3",
+    "eslint-plugin-react": "^7.37.4",
+    "eslint-plugin-react-hooks": "^5.1.0",
+    "eslint-plugin-react-native": "^5.0.0",
+    "eslint-plugin-tailwindcss": "^3.18.0",
+    "typescript-eslint": "^8.22.0"
+  },
+  "peerDependencies": {
+    "@eslint/js": ">= 9.19.0",
+    "eslint": ">= 9.19.0",
+    "eslint-config-prettier": ">= 10.0.1",
+    "eslint-plugin-import": ">= 2.31.0",
+    "eslint-plugin-prettier": ">= 5.2.3",
+    "eslint-plugin-react": ">= 7.37.4",
+    "eslint-plugin-react-hooks": ">= 5.1.0",
+    "eslint-plugin-react-native": ">= 5.0.0",
+    "eslint-plugin-tailwindcss": ">= 3.18.0",
+    "typescript-eslint": ">= 8.22.0"
+  }
+}
