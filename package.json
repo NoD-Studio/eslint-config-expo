@@ -1,6 +1,6 @@
 {
   "name": "@nodstudio/eslint-config-expo",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "ESLint configuration for Expo from NOD Studio",
   "main": "index.js",
   "type": "module",

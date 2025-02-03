@@ -4,6 +4,16 @@ import nodStudioConfigReactNative from "@nodstudio/eslint-config-react-native";
 export default [
   ...nodStudioConfigReactNative,
   {
+    rules: {
+      "@typescript-eslint/no-require-imports": [
+        "off",
+        {
+          allow: ["^assets/.*$", "react-native-google-mobile-ads"],
+        },
+      ]
+    },
+  },
+  {
     files: ["@design/**/*", "@/design/**/*", "design/**/*", "src/design/**/*"],
     rules: {
       "@typescript-eslint/no-restricted-imports": [
