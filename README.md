@@ -25,6 +25,8 @@ export default [
 ];
 ```
 
+4. (Optional) For a better experience, please use [@nodstudio/prettier-config-expo](https://github.com/NoD-Studio/prettier-config-expo.git)
+
 ## Usage
 
 ### Imports
