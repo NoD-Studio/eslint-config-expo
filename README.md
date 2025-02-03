@@ -31,10 +31,10 @@ export default [
 
 The goal is to force a file structure logic where low-levels components can't import high-levels components.
 
-| folder                                                                      | can't import                                                                                                                                                                                   |
-|-----------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| folder | can't import from |
+|:---:|:---:|
 | @design/\*\*/\*<br>@/design/\*\*/\*<br>design/\*\*/\*<br>src/design/\*\*/\* | @containers/\*\*/\*<br>@/containers/\*\*/\*<br>containers/\*\*/\*<br>src/containers/\*\*/\*<br><br>@components/\*\*/\*<br>@/components/\*\*/\*<br>components/\*\*/\*<br>src/components/\*\*/\* |
-| @components/\*\*/\*<br>@/components/\*\*/\*<br>components/\*\*/\*<br>src/components/\*\*/\* | @containers/\*\*/\*<br>@/containers/\*\*/\*<br>containers/\*\*/\*<br>src/containers/\*\*/\*                                                                                                    |                                                                                                     |   |   |   |
+| @components/\*\*/\*<br>@/components/\*\*/\*<br>components/\*\*/\*<br>src/components/\*\*/\* | @containers/\*\*/\*<br>@/containers/\*\*/\*<br>containers/\*\*/\*<br>src/containers/\*\*/\* |
 
 ### Examples
 
