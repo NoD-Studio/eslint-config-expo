@@ -1,34 +1,29 @@
 {
-  "name": "eslint-config-nodstudio-reactnative",
+  "name": "@nodstudio/eslint-config-expo",
   "version": "1.0.0",
   "description": "ESLint configuration for Expo from NOD Studio",
   "main": "index.js",
-  "repository": "https://github.com/NoD-Studio/eslint-config-nodstudio-reactnative",
+  "type": "module",
   "author": "NOD Studio",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/NoD-Studio/eslint-config-expo.git"
+  },
   "license": "MIT",
-  "keywords": ["eslint", "eslintconfig"],
-  "devDependencies": {
+  "publishConfig": {
+    "access": "public"
+  },
+  "keywords": [
+    "eslint",
+    "eslintconfig"
+  ],
+  "dependencies": {
     "@eslint/js": "^9.19.0",
-    "eslint": "^9.19.0",
-    "eslint-config-prettier": "^10.0.1",
-    "eslint-plugin-import": "^2.31.0",
-    "eslint-plugin-prettier": "^5.2.3",
-    "eslint-plugin-react": "^7.37.4",
-    "eslint-plugin-react-hooks": "^5.1.0",
-    "eslint-plugin-react-native": "^5.0.0",
-    "eslint-plugin-tailwindcss": "^3.18.0",
-    "typescript-eslint": "^8.22.0"
+    "@nodstudio/eslint-config-react-native": "^1.0.0",
+    "eslint": "^9.19.0"
   },
   "peerDependencies": {
-    "@eslint/js": ">= 9.19.0",
-    "eslint": ">= 9.19.0",
-    "eslint-config-prettier": ">= 10.0.1",
-    "eslint-plugin-import": ">= 2.31.0",
-    "eslint-plugin-prettier": ">= 5.2.3",
-    "eslint-plugin-react": ">= 7.37.4",
-    "eslint-plugin-react-hooks": ">= 5.1.0",
-    "eslint-plugin-react-native": ">= 5.0.0",
-    "eslint-plugin-tailwindcss": ">= 3.18.0",
-    "typescript-eslint": ">= 8.22.0"
-  }
+    "eslint": ">= 9.19.0"
+  },
+  "packageManager": "yarn@1.22.22+sha512.a6b2f7906b721bba3d67d4aff083df04dad64c399707841b7acf00f6b133b7ac24255f2652fa22ae3534329dc6180534e98d17432037ff6fd140556e2bb3137e"
 }
